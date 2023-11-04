@@ -1,0 +1,4 @@
+boto3
+jsonlines
+python-dotenv
+wikipedia
