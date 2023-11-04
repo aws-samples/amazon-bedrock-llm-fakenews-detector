@@ -8,7 +8,6 @@ from langchain.llms.bedrock import Bedrock
 from dotenv import load_dotenv, find_dotenv
 _ = load_dotenv(find_dotenv()) # read local .env file
 
-os.environ["AWS_PROFILE"] = "genai"
 
 def get_llm(model_id='amazon.titan-tg1-large'):    
     boto3_bedrock = boto3.client('bedrock-runtime', region_name='us-west-2')
