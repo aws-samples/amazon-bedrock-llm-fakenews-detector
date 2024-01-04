@@ -17,6 +17,8 @@ In this blog post we explore how Large Language Models (LLMs) can be utilized to
 
 We illustrate this by creating a LangChain application which, given a piece of news, highlights to the user whether the article is true or fake using natural language. The solution makes also use of Amazon Bedrock, a fully managed service that makes foundation models (FMs) from Amazon and third-party model providers easily accessible through the AWS console and API.
 
+For a set-by-step description of the solution, please check our [AWS Machine Learning Blog entitled Harness large language models in fake news detection](https://aws.amazon.com/blogs/machine-learning/harness-large-language-models-in-fake-news-detection/).
+
 
 ## How to use this repository
 
